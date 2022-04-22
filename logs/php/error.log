@@ -1,0 +1,48 @@
+[19-Apr-2022 04:21:15 UTC] PHP Recoverable fatal error:  Object of class stdClass could not be converted to string in C:\Users\cchri\Local Sites\oprkidscom\app\public\wp-content\mu-plugins\local-by-flywheel-live-link-helper.php on line 155
+[19-Apr-2022 04:21:15 UTC] PHP Stack trace:
+[19-Apr-2022 04:21:15 UTC] PHP   1. {main}() C:\Users\cchri\Local Sites\oprkidscom\app\public\wp-cron.php:0
+[19-Apr-2022 04:21:15 UTC] PHP   2. do_action_ref_array() C:\Users\cchri\Local Sites\oprkidscom\app\public\wp-cron.php:138
+[19-Apr-2022 04:21:15 UTC] PHP   3. WP_Hook->do_action() C:\Users\cchri\Local Sites\oprkidscom\app\public\wp-includes\plugin.php:522
+[19-Apr-2022 04:21:15 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\cchri\Local Sites\oprkidscom\app\public\wp-includes\class-wp-hook.php:331
+[19-Apr-2022 04:21:15 UTC] PHP   5. wp_version_check() C:\Users\cchri\Local Sites\oprkidscom\app\public\wp-includes\class-wp-hook.php:307
+[19-Apr-2022 04:21:15 UTC] PHP   6. set_site_transient() C:\Users\cchri\Local Sites\oprkidscom\app\public\wp-includes\update.php:74
+[19-Apr-2022 04:21:15 UTC] PHP   7. update_site_option() C:\Users\cchri\Local Sites\oprkidscom\app\public\wp-includes\option.php:2021
+[19-Apr-2022 04:21:15 UTC] PHP   8. update_network_option() C:\Users\cchri\Local Sites\oprkidscom\app\public\wp-includes\option.php:1353
+[19-Apr-2022 04:21:15 UTC] PHP   9. update_option() C:\Users\cchri\Local Sites\oprkidscom\app\public\wp-includes\option.php:1783
+[19-Apr-2022 04:21:15 UTC] PHP  10. apply_filters() C:\Users\cchri\Local Sites\oprkidscom\app\public\wp-includes\option.php:447
+[19-Apr-2022 04:21:15 UTC] PHP  11. WP_Hook->apply_filters() C:\Users\cchri\Local Sites\oprkidscom\app\public\wp-includes\plugin.php:189
+[19-Apr-2022 04:21:15 UTC] PHP  12. LocalWP_Live_Link_Helper->make_link_local() C:\Users\cchri\Local Sites\oprkidscom\app\public\wp-includes\class-wp-hook.php:309
+[19-Apr-2022 04:21:15 UTC] PHP  13. LocalWP_Live_Link_Helper->replace_host() C:\Users\cchri\Local Sites\oprkidscom\app\public\wp-content\mu-plugins\local-by-flywheel-live-link-helper.php:187
+[19-Apr-2022 04:21:15 UTC] PHP  14. str_replace() C:\Users\cchri\Local Sites\oprkidscom\app\public\wp-content\mu-plugins\local-by-flywheel-live-link-helper.php:155
+[19-Apr-2022 04:23:06 UTC] PHP Recoverable fatal error:  Object of class stdClass could not be converted to string in C:\Users\cchri\Local Sites\oprkidscom\app\public\wp-content\mu-plugins\local-by-flywheel-live-link-helper.php on line 155
+[19-Apr-2022 04:23:06 UTC] PHP Stack trace:
+[19-Apr-2022 04:23:06 UTC] PHP   1. {main}() C:\Users\cchri\Local Sites\oprkidscom\app\public\wp-cron.php:0
+[19-Apr-2022 04:23:06 UTC] PHP   2. do_action_ref_array() C:\Users\cchri\Local Sites\oprkidscom\app\public\wp-cron.php:138
+[19-Apr-2022 04:23:06 UTC] PHP   3. WP_Hook->do_action() C:\Users\cchri\Local Sites\oprkidscom\app\public\wp-includes\plugin.php:522
+[19-Apr-2022 04:23:06 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\cchri\Local Sites\oprkidscom\app\public\wp-includes\class-wp-hook.php:331
+[19-Apr-2022 04:23:06 UTC] PHP   5. wp_update_plugins() C:\Users\cchri\Local Sites\oprkidscom\app\public\wp-includes\class-wp-hook.php:307
+[19-Apr-2022 04:23:06 UTC] PHP   6. set_site_transient() C:\Users\cchri\Local Sites\oprkidscom\app\public\wp-includes\update.php:357
+[19-Apr-2022 04:23:06 UTC] PHP   7. update_site_option() C:\Users\cchri\Local Sites\oprkidscom\app\public\wp-includes\option.php:2021
+[19-Apr-2022 04:23:06 UTC] PHP   8. update_network_option() C:\Users\cchri\Local Sites\oprkidscom\app\public\wp-includes\option.php:1353
+[19-Apr-2022 04:23:06 UTC] PHP   9. update_option() C:\Users\cchri\Local Sites\oprkidscom\app\public\wp-includes\option.php:1783
+[19-Apr-2022 04:23:06 UTC] PHP  10. apply_filters() C:\Users\cchri\Local Sites\oprkidscom\app\public\wp-includes\option.php:447
+[19-Apr-2022 04:23:06 UTC] PHP  11. WP_Hook->apply_filters() C:\Users\cchri\Local Sites\oprkidscom\app\public\wp-includes\plugin.php:189
+[19-Apr-2022 04:23:06 UTC] PHP  12. LocalWP_Live_Link_Helper->make_link_local() C:\Users\cchri\Local Sites\oprkidscom\app\public\wp-includes\class-wp-hook.php:309
+[19-Apr-2022 04:23:06 UTC] PHP  13. LocalWP_Live_Link_Helper->replace_host() C:\Users\cchri\Local Sites\oprkidscom\app\public\wp-content\mu-plugins\local-by-flywheel-live-link-helper.php:187
+[19-Apr-2022 04:23:06 UTC] PHP  14. str_replace() C:\Users\cchri\Local Sites\oprkidscom\app\public\wp-content\mu-plugins\local-by-flywheel-live-link-helper.php:155
+[19-Apr-2022 04:25:33 UTC] PHP Recoverable fatal error:  Object of class stdClass could not be converted to string in C:\Users\cchri\Local Sites\oprkidscom\app\public\wp-content\mu-plugins\local-by-flywheel-live-link-helper.php on line 155
+[19-Apr-2022 04:25:33 UTC] PHP Stack trace:
+[19-Apr-2022 04:25:33 UTC] PHP   1. {main}() C:\Users\cchri\Local Sites\oprkidscom\app\public\wp-cron.php:0
+[19-Apr-2022 04:25:33 UTC] PHP   2. do_action_ref_array() C:\Users\cchri\Local Sites\oprkidscom\app\public\wp-cron.php:138
+[19-Apr-2022 04:25:33 UTC] PHP   3. WP_Hook->do_action() C:\Users\cchri\Local Sites\oprkidscom\app\public\wp-includes\plugin.php:522
+[19-Apr-2022 04:25:33 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\cchri\Local Sites\oprkidscom\app\public\wp-includes\class-wp-hook.php:331
+[19-Apr-2022 04:25:33 UTC] PHP   5. wp_update_themes() C:\Users\cchri\Local Sites\oprkidscom\app\public\wp-includes\class-wp-hook.php:307
+[19-Apr-2022 04:25:33 UTC] PHP   6. set_site_transient() C:\Users\cchri\Local Sites\oprkidscom\app\public\wp-includes\update.php:638
+[19-Apr-2022 04:25:33 UTC] PHP   7. update_site_option() C:\Users\cchri\Local Sites\oprkidscom\app\public\wp-includes\option.php:2021
+[19-Apr-2022 04:25:33 UTC] PHP   8. update_network_option() C:\Users\cchri\Local Sites\oprkidscom\app\public\wp-includes\option.php:1353
+[19-Apr-2022 04:25:33 UTC] PHP   9. update_option() C:\Users\cchri\Local Sites\oprkidscom\app\public\wp-includes\option.php:1783
+[19-Apr-2022 04:25:33 UTC] PHP  10. apply_filters() C:\Users\cchri\Local Sites\oprkidscom\app\public\wp-includes\option.php:447
+[19-Apr-2022 04:25:33 UTC] PHP  11. WP_Hook->apply_filters() C:\Users\cchri\Local Sites\oprkidscom\app\public\wp-includes\plugin.php:189
+[19-Apr-2022 04:25:33 UTC] PHP  12. LocalWP_Live_Link_Helper->make_link_local() C:\Users\cchri\Local Sites\oprkidscom\app\public\wp-includes\class-wp-hook.php:309
+[19-Apr-2022 04:25:33 UTC] PHP  13. LocalWP_Live_Link_Helper->replace_host() C:\Users\cchri\Local Sites\oprkidscom\app\public\wp-content\mu-plugins\local-by-flywheel-live-link-helper.php:187
+[19-Apr-2022 04:25:33 UTC] PHP  14. str_replace() C:\Users\cchri\Local Sites\oprkidscom\app\public\wp-content\mu-plugins\local-by-flywheel-live-link-helper.php:155
